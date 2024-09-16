@@ -1,13 +1,13 @@
-import Component from './starter/02-props';
+import { useState } from 'react';
+import Component from './starter/04-events';
 
 function App() {
+  const [text, setText] = useState('');
+  const [email, setEmail] = useState('');
   return (
-    <main>
-      <Component name='peter' id={123}>
-        <h1>Hello world</h1>
-      </Component>
-      <Component name='peter' id={123} />
-    </main>
+    <section>
+      <Component />
+    </section>
   );
 }
 

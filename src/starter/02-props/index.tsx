@@ -1,8 +1,15 @@
-type ComponentProps = {
+import { PropsWithChildren } from 'react';
+
+type ComponentProps = PropsWithChildren<{
   name: String;
   id: number;
   children?: React.ReactNode;
-};
+}>;
+/* type ComponentProps = {
+  name: String;
+  id: number;
+  children?: React.ReactNode;
+}; */
 
 function Component({ name, id, children }: ComponentProps) {
   return (
