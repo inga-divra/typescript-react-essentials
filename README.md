@@ -1,3 +1,14 @@
+# TypeScript-React-Essentials-Tutorials
+
+This project is part of John Smilga's React course, which I completed to enhance my skills in React development. For more information about the course, visit [John Smilga's Website](https://www.johnsmilga.com).
+
+## Project Goals:
+- Improve proficiency in React and TypeScript.
+- Learn advanced state management techniques.
+- Practice working with APIs and data fetching.
+- Implement essential React features such as hooks, context, and more.
+
+
 This GitHub project provides a comprehensive guide to integrating TypeScript with React. It covers initial setup using vite and TypeScript, demonstrates various React & TypeScript concepts through clear examples, and delves into more advanced topics. Key aspects include:
 
 - Component Structure and TypeScript Integration: Explains how to correctly type React components, manage return types, and handle potential TypeScript errors.
